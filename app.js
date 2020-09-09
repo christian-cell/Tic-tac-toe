@@ -12,7 +12,7 @@ $(document).ready(function () {
    //los 2 jugadores
 	var x ='x';
 	var o ='o';
-   //los turnos de juego empezando por 0++
+   //los turnos de juego empezando por 0
 	var turns = 0;
     //toda la casuistica con la que gana o
 	$('#board li').on('click',function(){
